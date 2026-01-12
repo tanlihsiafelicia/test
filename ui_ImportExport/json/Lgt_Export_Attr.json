@@ -1,0 +1,976 @@
+{
+    "attribute_dict": {
+        "LgtRg_Master_Ctrl_Grp_01": {
+            "LgtRg_Master_Ctrl_Grp_01.visibility": true,
+            "LgtRg_Master_Ctrl_Grp_01.translateX": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.translateY": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.translateZ": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.rotateX": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.rotateY": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.rotateZ": 1.0,
+            "LgtRg_Master_Ctrl_Grp_01.scaleX": 100.0,
+            "LgtRg_Master_Ctrl_Grp_01.scaleY": 100.0,
+            "LgtRg_Master_Ctrl_Grp_01.scaleZ": 100.0,
+            "LgtRg_Master_Ctrl_Grp_01.Main_Grp_Extra_Attr": false,
+            "child_shape": true,
+            "parent": [],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {
+                "Sample_LgtRig2:LgtRg_Master_Ctrl_Grp_01.Main_Grp_Extra_Attr": [
+                    "bool",
+                    []
+                ]
+            }
+        },
+        "Lgt_Grp": {
+            "Lgt_Grp.visibility": true,
+            "Lgt_Grp.translateX": 0.0,
+            "Lgt_Grp.translateY": 0.0,
+            "Lgt_Grp.translateZ": 0.0,
+            "Lgt_Grp.rotateX": 0.0,
+            "Lgt_Grp.rotateY": 0.0,
+            "Lgt_Grp.rotateZ": 0.0,
+            "Lgt_Grp.scaleX": 0.01,
+            "Lgt_Grp.scaleY": 0.01,
+            "Lgt_Grp.scaleZ": 0.01,
+            "child_shape": false,
+            "parent": [
+                "LgtRg_Master_Ctrl_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Key_Grp_01": {
+            "Lgt_Key_Grp_01.visibility": true,
+            "Lgt_Key_Grp_01.translateX": 0.0,
+            "Lgt_Key_Grp_01.translateY": 0.0,
+            "Lgt_Key_Grp_01.translateZ": 0.0,
+            "Lgt_Key_Grp_01.rotateX": 0.0,
+            "Lgt_Key_Grp_01.rotateY": 0.0,
+            "Lgt_Key_Grp_01.rotateZ": 0.0,
+            "Lgt_Key_Grp_01.scaleX": 1.0,
+            "Lgt_Key_Grp_01.scaleY": 1.0,
+            "Lgt_Key_Grp_01.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Grp"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    -0.060849364905389045,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    -0.060849364905389045,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Ctrl_Key": {
+            "Ctrl_Key.visibility": true,
+            "Ctrl_Key.translateX": 0.0,
+            "Ctrl_Key.translateY": 0.0,
+            "Ctrl_Key.translateZ": 0.0,
+            "Ctrl_Key.rotateX": 0.0,
+            "Ctrl_Key.rotateY": -45.0,
+            "Ctrl_Key.rotateZ": 0.0,
+            "Ctrl_Key.scaleX": 1.0,
+            "Ctrl_Key.scaleY": 1.0,
+            "Ctrl_Key.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Key_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "group3": {
+            "group3.visibility": true,
+            "group3.translateX": 0.0,
+            "group3.translateY": 0.0,
+            "group3.translateZ": 0.0,
+            "group3.rotateX": 0.0,
+            "group3.rotateY": 0.0,
+            "group3.rotateZ": 0.0,
+            "group3.scaleX": 1.0,
+            "group3.scaleY": 1.0,
+            "group3.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Fill_Grp_01": {
+            "Lgt_Fill_Grp_01.visibility": true,
+            "Lgt_Fill_Grp_01.translateX": 0.0,
+            "Lgt_Fill_Grp_01.translateY": 0.0,
+            "Lgt_Fill_Grp_01.translateZ": 0.0,
+            "Lgt_Fill_Grp_01.rotateX": 0.0,
+            "Lgt_Fill_Grp_01.rotateY": 0.0,
+            "Lgt_Fill_Grp_01.rotateZ": 0.0,
+            "Lgt_Fill_Grp_01.scaleX": 1.0,
+            "Lgt_Fill_Grp_01.scaleY": 1.0,
+            "Lgt_Fill_Grp_01.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Grp"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Rim_L_Grp_01": {
+            "Lgt_Rim_L_Grp_01.visibility": true,
+            "Lgt_Rim_L_Grp_01.translateX": 0.0,
+            "Lgt_Rim_L_Grp_01.translateY": 0.0,
+            "Lgt_Rim_L_Grp_01.translateZ": 0.0,
+            "Lgt_Rim_L_Grp_01.rotateX": 0.0,
+            "Lgt_Rim_L_Grp_01.rotateY": 0.0,
+            "Lgt_Rim_L_Grp_01.rotateZ": 0.0,
+            "Lgt_Rim_L_Grp_01.scaleX": 1.0,
+            "Lgt_Rim_L_Grp_01.scaleY": 1.0,
+            "Lgt_Rim_L_Grp_01.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Grp"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Rim_R_Grp_01": {
+            "Lgt_Rim_R_Grp_01.visibility": true,
+            "Lgt_Rim_R_Grp_01.translateX": 0.0,
+            "Lgt_Rim_R_Grp_01.translateY": 0.0,
+            "Lgt_Rim_R_Grp_01.translateZ": 0.0,
+            "Lgt_Rim_R_Grp_01.rotateX": 0.0,
+            "Lgt_Rim_R_Grp_01.rotateY": 0.0,
+            "Lgt_Rim_R_Grp_01.rotateZ": 0.0,
+            "Lgt_Rim_R_Grp_01.scaleX": 1.0,
+            "Lgt_Rim_R_Grp_01.scaleY": 1.0,
+            "Lgt_Rim_R_Grp_01.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Grp"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Dome_Grp_01": {
+            "Lgt_Dome_Grp_01.visibility": false,
+            "Lgt_Dome_Grp_01.translateX": 0.0,
+            "Lgt_Dome_Grp_01.translateY": 0.0,
+            "Lgt_Dome_Grp_01.translateZ": 0.0,
+            "Lgt_Dome_Grp_01.rotateX": 0.0,
+            "Lgt_Dome_Grp_01.rotateY": 0.0,
+            "Lgt_Dome_Grp_01.rotateZ": 0.0,
+            "Lgt_Dome_Grp_01.scaleX": 1.0,
+            "Lgt_Dome_Grp_01.scaleY": 1.0,
+            "Lgt_Dome_Grp_01.scaleZ": 1.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Grp"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "bottomnurbs_01": {
+            "bottomnurbs_01.visibility": true,
+            "bottomnurbs_01.translateX": 1.0,
+            "bottomnurbs_01.translateY": 1.0,
+            "bottomnurbs_01.translateZ": 1.0,
+            "bottomnurbs_01.rotateX": 1.0,
+            "bottomnurbs_01.rotateY": 1.0,
+            "bottomnurbs_01.rotateZ": 1.0,
+            "bottomnurbs_01.scaleX": 1.0,
+            "bottomnurbs_01.scaleY": 1.0,
+            "bottomnurbs_01.scaleZ": 1.0,
+            "bottomnurbs_01.Bottom_Extra_Attr": false,
+            "child_shape": true,
+            "parent": [
+                "Ctrl_Key"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    -5.684341886080802e-14,
+                    0.0,
+                    -7.105427357600989e-15
+                ],
+                "pivot_scale": [
+                    -5.684341886080802e-14,
+                    0.0,
+                    -1.262177448353619e-29
+                ]
+            },
+            "custom_setting": {
+                "Sample_LgtRig2:bottomnurbs_01.Bottom_Extra_Attr": [
+                    "bool",
+                    []
+                ]
+            }
+        },
+        "nurbsCircle1": {
+            "nurbsCircle1.visibility": true,
+            "nurbsCircle1.translateX": 0.0,
+            "nurbsCircle1.translateY": 0.0,
+            "nurbsCircle1.translateZ": 0.0,
+            "nurbsCircle1.rotateX": 0.0,
+            "nurbsCircle1.rotateY": 0.0,
+            "nurbsCircle1.rotateZ": 0.0,
+            "nurbsCircle1.scaleX": 1.0,
+            "nurbsCircle1.scaleY": 1.0,
+            "nurbsCircle1.scaleZ": 1.0,
+            "child_shape": true,
+            "parent": [
+                "group3"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "topnurbs_01": {
+            "topnurbs_01.visibility": true,
+            "topnurbs_01.translateX": 0.0,
+            "topnurbs_01.translateY": 0.0,
+            "topnurbs_01.translateZ": 0.0,
+            "topnurbs_01.rotateX": 0.0,
+            "topnurbs_01.rotateY": 0.0,
+            "topnurbs_01.rotateZ": 0.0,
+            "topnurbs_01.scaleX": 1.0,
+            "topnurbs_01.scaleY": 1.0,
+            "topnurbs_01.scaleZ": 1.7,
+            "topnurbs_01.FloatAttr": 6.5,
+            "topnurbs_01.IntAttr": 7,
+            "topnurbs_01.BoolAttr": false,
+            "topnurbs_01.EnumAttr": 3,
+            "child_shape": true,
+            "parent": [
+                "Ctrl_Key"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    -5.684341886080802e-14,
+                    0.0,
+                    -5.004326039594944e-16
+                ],
+                "pivot_scale": [
+                    -5.684341886080802e-14,
+                    0.0,
+                    -1.262177448353619e-29
+                ]
+            },
+            "custom_setting": {
+                "Sample_LgtRig2:topnurbs_01.FloatAttr": [
+                    "double",
+                    [
+                        0.0,
+                        10.0,
+                        0.0
+                    ]
+                ],
+                "Sample_LgtRig2:topnurbs_01.IntAttr": [
+                    "long",
+                    [
+                        0,
+                        10,
+                        0
+                    ]
+                ],
+                "Sample_LgtRig2:topnurbs_01.BoolAttr": [
+                    "bool",
+                    []
+                ],
+                "Sample_LgtRig2:topnurbs_01.EnumAttr": [
+                    "enum",
+                    [
+                        "Green",
+                        "Blue",
+                        "Red",
+                        "Yellow"
+                    ]
+                ]
+            }
+        },
+        "Lgt_Fill_01": {
+            "Lgt_Fill_01.visibility": true,
+            "Lgt_Fill_01.translateX": 0.0,
+            "Lgt_Fill_01.translateY": 0.0,
+            "Lgt_Fill_01.translateZ": 5.0,
+            "Lgt_Fill_01.rotateX": -40.0,
+            "Lgt_Fill_01.rotateY": 45.0,
+            "Lgt_Fill_01.rotateZ": 0.0,
+            "Lgt_Fill_01.scaleX": 50.0,
+            "Lgt_Fill_01.scaleY": 50.0,
+            "Lgt_Fill_01.scaleZ": 50.0,
+            "child_shape": true,
+            "parent": [
+                "Lgt_Fill_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Rim_L_01": {
+            "Lgt_Rim_L_01.visibility": true,
+            "Lgt_Rim_L_01.translateX": 0.0,
+            "Lgt_Rim_L_01.translateY": 0.0,
+            "Lgt_Rim_L_01.translateZ": 5.0,
+            "Lgt_Rim_L_01.rotateX": -40.0,
+            "Lgt_Rim_L_01.rotateY": 225.0,
+            "Lgt_Rim_L_01.rotateZ": 0.0,
+            "Lgt_Rim_L_01.scaleX": 50.0,
+            "Lgt_Rim_L_01.scaleY": 50.0,
+            "Lgt_Rim_L_01.scaleZ": 50.0,
+            "child_shape": true,
+            "parent": [
+                "Lgt_Rim_L_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Rim_R_01": {
+            "Lgt_Rim_R_01.visibility": true,
+            "Lgt_Rim_R_01.translateX": 0.0,
+            "Lgt_Rim_R_01.translateY": 0.0,
+            "Lgt_Rim_R_01.translateZ": 5.0,
+            "Lgt_Rim_R_01.rotateX": -40.0,
+            "Lgt_Rim_R_01.rotateY": 135.0,
+            "Lgt_Rim_R_01.rotateZ": 0.0,
+            "Lgt_Rim_R_01.scaleX": 50.0,
+            "Lgt_Rim_R_01.scaleY": 50.0,
+            "Lgt_Rim_R_01.scaleZ": 50.0,
+            "child_shape": true,
+            "parent": [
+                "Lgt_Rim_R_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    -5.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Dome_01": {
+            "Lgt_Dome_01.visibility": true,
+            "Lgt_Dome_01.translateX": 0.0,
+            "Lgt_Dome_01.translateY": 0.0,
+            "Lgt_Dome_01.translateZ": 0.0,
+            "Lgt_Dome_01.rotateX": 0.0,
+            "Lgt_Dome_01.rotateY": 0.0,
+            "Lgt_Dome_01.rotateZ": 0.0,
+            "Lgt_Dome_01.scaleX": 1.0,
+            "Lgt_Dome_01.scaleY": 1.0,
+            "Lgt_Dome_01.scaleZ": 1.0,
+            "child_shape": true,
+            "parent": [
+                "Lgt_Dome_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Key_01": {
+            "Lgt_Key_01.visibility": true,
+            "Lgt_Key_01.translateX": -2.625979637148614e-14,
+            "Lgt_Key_01.translateY": -4.618527782440651e-14,
+            "Lgt_Key_01.translateZ": 15.000000000000025,
+            "Lgt_Key_01.rotateX": -40.0,
+            "Lgt_Key_01.rotateY": -45.0,
+            "Lgt_Key_01.rotateZ": 0.0,
+            "Lgt_Key_01.scaleX": 50.0,
+            "Lgt_Key_01.scaleY": 50.0,
+            "Lgt_Key_01.scaleZ": 50.0,
+            "child_shape": true,
+            "parent": [
+                "Lgt_Key_Grp_01"
+            ],
+            "nodetype": "transform",
+            "pivot_data": {
+                "pivot_rotate": [
+                    0.0,
+                    0.0,
+                    -15.0
+                ],
+                "pivot_scale": [
+                    0.0,
+                    0.0,
+                    -15.0
+                ]
+            },
+            "custom_setting": {}
+        },
+        "Lgt_Fill_Shape_01": {
+            "Lgt_Fill_Shape_01.color": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "Lgt_Fill_Shape_01.intensity": 1.0,
+            "Lgt_Fill_Shape_01.aiCastShadows": true,
+            "Lgt_Fill_Shape_01.aiShadowDensity": 1.0,
+            "Lgt_Fill_Shape_01.exposure": 0.0,
+            "Lgt_Fill_Shape_01.aiSamples": 1,
+            "Lgt_Fill_Shape_01.normalize": true,
+            "Lgt_Fill_Shape_01.aiDiffuse": 1.0,
+            "Lgt_Fill_Shape_01.aiSpecular": 1.0,
+            "Lgt_Fill_Shape_01.aiSss": 1.0,
+            "Lgt_Fill_Shape_01.aiIndirect": 1.0,
+            "Lgt_Fill_Shape_01.aiVolume": 1.0,
+            "Lgt_Fill_Shape_01.aiVolumeSamples": 2,
+            "Lgt_Fill_Shape_01.aiUseColorTemperature": false,
+            "Lgt_Fill_Shape_01.aiColorTemperature": 6500.0,
+            "Lgt_Fill_Shape_01.aiShadowColor": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Lgt_Fill_Shape_01.aiSpread": 1.0,
+            "Lgt_Fill_Shape_01.aiRoundness": 0.0,
+            "Lgt_Fill_Shape_01.aiSoftEdge": 0.0,
+            "Lgt_Fill_Shape_01.aiCastVolumetricShadows": true,
+            "Lgt_Fill_Shape_01.aiCamera": 0.0,
+            "Lgt_Fill_Shape_01.aiTransmission": 0.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Fill_01"
+            ],
+            "nodetype": "aiAreaLight",
+            "file_attached": null,
+            "custom_setting": {}
+        },
+        "Lgt_Rim_L_Shape_01": {
+            "Lgt_Rim_L_Shape_01.color": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "Lgt_Rim_L_Shape_01.intensity": 1.0,
+            "Lgt_Rim_L_Shape_01.aiCastShadows": true,
+            "Lgt_Rim_L_Shape_01.aiShadowDensity": 1.0,
+            "Lgt_Rim_L_Shape_01.exposure": 0.0,
+            "Lgt_Rim_L_Shape_01.aiSamples": 1,
+            "Lgt_Rim_L_Shape_01.normalize": true,
+            "Lgt_Rim_L_Shape_01.aiDiffuse": 1.0,
+            "Lgt_Rim_L_Shape_01.aiSpecular": 1.0,
+            "Lgt_Rim_L_Shape_01.aiSss": 1.0,
+            "Lgt_Rim_L_Shape_01.aiIndirect": 1.0,
+            "Lgt_Rim_L_Shape_01.aiVolume": 1.0,
+            "Lgt_Rim_L_Shape_01.aiVolumeSamples": 2,
+            "Lgt_Rim_L_Shape_01.aiUseColorTemperature": false,
+            "Lgt_Rim_L_Shape_01.aiColorTemperature": 6500.0,
+            "Lgt_Rim_L_Shape_01.aiShadowColor": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Lgt_Rim_L_Shape_01.aiSpread": 1.0,
+            "Lgt_Rim_L_Shape_01.aiRoundness": 0.0,
+            "Lgt_Rim_L_Shape_01.aiSoftEdge": 0.0,
+            "Lgt_Rim_L_Shape_01.aiCastVolumetricShadows": true,
+            "Lgt_Rim_L_Shape_01.aiCamera": 0.0,
+            "Lgt_Rim_L_Shape_01.aiTransmission": 0.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Rim_L_01"
+            ],
+            "nodetype": "aiAreaLight",
+            "file_attached": null,
+            "custom_setting": {}
+        },
+        "Lgt_Rim_R_Shape_01": {
+            "Lgt_Rim_R_Shape_01.color": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "Lgt_Rim_R_Shape_01.intensity": 1.0,
+            "Lgt_Rim_R_Shape_01.aiCastShadows": true,
+            "Lgt_Rim_R_Shape_01.aiShadowDensity": 1.0,
+            "Lgt_Rim_R_Shape_01.exposure": 0.0,
+            "Lgt_Rim_R_Shape_01.aiSamples": 1,
+            "Lgt_Rim_R_Shape_01.normalize": true,
+            "Lgt_Rim_R_Shape_01.aiDiffuse": 1.0,
+            "Lgt_Rim_R_Shape_01.aiSpecular": 1.0,
+            "Lgt_Rim_R_Shape_01.aiSss": 1.0,
+            "Lgt_Rim_R_Shape_01.aiIndirect": 1.0,
+            "Lgt_Rim_R_Shape_01.aiVolume": 1.0,
+            "Lgt_Rim_R_Shape_01.aiVolumeSamples": 2,
+            "Lgt_Rim_R_Shape_01.aiUseColorTemperature": false,
+            "Lgt_Rim_R_Shape_01.aiColorTemperature": 6500.0,
+            "Lgt_Rim_R_Shape_01.aiShadowColor": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Lgt_Rim_R_Shape_01.aiSpread": 1.0,
+            "Lgt_Rim_R_Shape_01.aiRoundness": 0.0,
+            "Lgt_Rim_R_Shape_01.aiSoftEdge": 0.0,
+            "Lgt_Rim_R_Shape_01.aiCastVolumetricShadows": true,
+            "Lgt_Rim_R_Shape_01.aiCamera": 0.0,
+            "Lgt_Rim_R_Shape_01.aiTransmission": 0.0,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Rim_R_01"
+            ],
+            "nodetype": "aiAreaLight",
+            "file_attached": null,
+            "custom_setting": {}
+        },
+        "Lgt_Dome_Shape_01": {
+            "Lgt_Dome_Shape_01.color": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Lgt_Dome_Shape_01.format": 2,
+            "Lgt_Dome_Shape_01.intensity": 1.0,
+            "Lgt_Dome_Shape_01.portalMode": 1,
+            "Lgt_Dome_Shape_01.aiCastShadows": true,
+            "Lgt_Dome_Shape_01.aiShadowDensity": 1.0,
+            "Lgt_Dome_Shape_01.exposure": 0.0,
+            "Lgt_Dome_Shape_01.aiSamples": 1,
+            "Lgt_Dome_Shape_01.aiNormalize": true,
+            "Lgt_Dome_Shape_01.aiDiffuse": 1.0,
+            "Lgt_Dome_Shape_01.aiSpecular": 1.0,
+            "Lgt_Dome_Shape_01.aiSss": 1.0,
+            "Lgt_Dome_Shape_01.aiIndirect": 1.0,
+            "Lgt_Dome_Shape_01.aiVolume": 1.0,
+            "Lgt_Dome_Shape_01.aiVolumeSamples": 2,
+            "Lgt_Dome_Shape_01.aiUseColorTemperature": false,
+            "Lgt_Dome_Shape_01.aiColorTemperature": 6500.0,
+            "Lgt_Dome_Shape_01.aiCastVolumetricShadows": true,
+            "Lgt_Dome_Shape_01.aiShadowColor": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Lgt_Dome_Shape_01.aiAovIndirect": false,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Dome_01"
+            ],
+            "nodetype": "aiSkyDomeLight",
+            "file_attached": "L:/Temp/Felicia/PROJ_MOCKUP/sourceimages/HDR/ST_CityBlockA_EXT_Day_HDR.0108.exr",
+            "custom_setting": {}
+        },
+        "Lgt_Key_Shape_01": {
+            "Lgt_Key_Shape_01.color": [
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ],
+            "Lgt_Key_Shape_01.intensity": 1.0,
+            "Lgt_Key_Shape_01.emitDiffuse": true,
+            "Lgt_Key_Shape_01.emitSpecular": true,
+            "Lgt_Key_Shape_01.aiCastShadows": true,
+            "Lgt_Key_Shape_01.aiShadowDensity": 1.0,
+            "Lgt_Key_Shape_01.aiExposure": 0.0,
+            "Lgt_Key_Shape_01.aiSamples": 1,
+            "Lgt_Key_Shape_01.aiNormalize": true,
+            "Lgt_Key_Shape_01.aiDiffuse": 1.0,
+            "Lgt_Key_Shape_01.aiSpecular": 1.0,
+            "Lgt_Key_Shape_01.aiSss": 1.0,
+            "Lgt_Key_Shape_01.aiIndirect": 1.0,
+            "Lgt_Key_Shape_01.aiVolume": 1.0,
+            "Lgt_Key_Shape_01.aiVolumeSamples": 2,
+            "Lgt_Key_Shape_01.aiUseColorTemperature": false,
+            "Lgt_Key_Shape_01.aiColorTemperature": 6500.0,
+            "Lgt_Key_Shape_01.aiAngle": 0.0,
+            "Lgt_Key_Shape_01.aiCastVolumetricShadows": true,
+            "child_shape": false,
+            "parent": [
+                "Lgt_Key_01"
+            ],
+            "nodetype": "directionalLight",
+            "file_attached": null,
+            "custom_setting": {}
+        },
+        "LgtRg_Master_Ctrl": {
+            "LgtRg_Master_Ctrl.castsShadows": true,
+            "LgtRg_Master_Ctrl.primaryVisibility": true,
+            "LgtRg_Master_Ctrl.aiSelfShadows": true,
+            "LgtRg_Master_Ctrl.aiOpaque": true,
+            "LgtRg_Master_Ctrl.aiMatte": false,
+            "LgtRg_Master_Ctrl.aiVisibleInDiffuseReflection": true,
+            "LgtRg_Master_Ctrl.aiVisibleInSpecularReflection": true,
+            "LgtRg_Master_Ctrl.aiVisibleInDiffuseTransmission": true,
+            "LgtRg_Master_Ctrl.aiVisibleInSpecularTransmission": true,
+            "LgtRg_Master_Ctrl.aiVisibleInVolume": true,
+            "LgtRg_Master_Ctrl.aiMode": 0,
+            "LgtRg_Master_Ctrl.aiRenderCurve": false,
+            "LgtRg_Master_Ctrl.aiCurveWidth": 0.009999999776482582,
+            "LgtRg_Master_Ctrl.aiSampleRate": 5,
+            "LgtRg_Master_Ctrl.aiExportRefPoints": true,
+            "child_shape": false,
+            "parent": [
+                "LgtRg_Master_Ctrl_Grp_01"
+            ],
+            "nodetype": "nurbsCurve",
+            "curve_data": {
+                "Sample_LgtRig2:LgtRg_Master_Ctrl.spans": 0,
+                "Sample_LgtRig2:LgtRg_Master_Ctrl.form": 0,
+                "Sample_LgtRig2:LgtRg_Master_Ctrl.degree": 0,
+                "Sample_LgtRig2:LgtRg_Master_Ctrl.cv": []
+            },
+            "custom_setting": {}
+        },
+        "bottomnurbs_Shape_01": {
+            "bottomnurbs_Shape_01.castsShadows": true,
+            "bottomnurbs_Shape_01.primaryVisibility": true,
+            "bottomnurbs_Shape_01.aiSelfShadows": true,
+            "bottomnurbs_Shape_01.aiOpaque": true,
+            "bottomnurbs_Shape_01.aiMatte": false,
+            "bottomnurbs_Shape_01.aiVisibleInDiffuseReflection": true,
+            "bottomnurbs_Shape_01.aiVisibleInSpecularReflection": true,
+            "bottomnurbs_Shape_01.aiVisibleInDiffuseTransmission": true,
+            "bottomnurbs_Shape_01.aiVisibleInSpecularTransmission": true,
+            "bottomnurbs_Shape_01.aiVisibleInVolume": true,
+            "bottomnurbs_Shape_01.aiMode": 0,
+            "bottomnurbs_Shape_01.aiRenderCurve": false,
+            "bottomnurbs_Shape_01.aiCurveWidth": 0.009999999776482582,
+            "bottomnurbs_Shape_01.aiSampleRate": 5,
+            "bottomnurbs_Shape_01.aiExportRefPoints": true,
+            "bottomnurbs_Shape_01.BottomCurve_ATTR": 0,
+            "child_shape": false,
+            "parent": [
+                "bottomnurbs_01"
+            ],
+            "nodetype": "nurbsCurve",
+            "curve_data": {
+                "Sample_LgtRig2:bottomnurbs_Shape_01.spans": 0,
+                "Sample_LgtRig2:bottomnurbs_Shape_01.form": 0,
+                "Sample_LgtRig2:bottomnurbs_Shape_01.degree": 0,
+                "Sample_LgtRig2:bottomnurbs_Shape_01.cv": []
+            },
+            "custom_setting": {
+                "Sample_LgtRig2:bottomnurbs_Shape_01.BottomCurve_ATTR": [
+                    "long",
+                    [
+                        0,
+                        10,
+                        0
+                    ]
+                ]
+            }
+        },
+        "nurbsCircleShape1": {
+            "nurbsCircleShape1.castsShadows": true,
+            "nurbsCircleShape1.primaryVisibility": true,
+            "nurbsCircleShape1.aiSelfShadows": true,
+            "nurbsCircleShape1.aiOpaque": true,
+            "nurbsCircleShape1.aiMatte": false,
+            "nurbsCircleShape1.aiVisibleInDiffuseReflection": true,
+            "nurbsCircleShape1.aiVisibleInSpecularReflection": true,
+            "nurbsCircleShape1.aiVisibleInDiffuseTransmission": true,
+            "nurbsCircleShape1.aiVisibleInSpecularTransmission": true,
+            "nurbsCircleShape1.aiVisibleInVolume": true,
+            "nurbsCircleShape1.aiMode": 0,
+            "nurbsCircleShape1.aiRenderCurve": false,
+            "nurbsCircleShape1.aiCurveWidth": 0.009999999776482582,
+            "nurbsCircleShape1.aiSampleRate": 5,
+            "nurbsCircleShape1.aiExportRefPoints": true,
+            "child_shape": false,
+            "parent": [
+                "nurbsCircle1"
+            ],
+            "nodetype": "nurbsCurve",
+            "curve_data": {
+                "Sample_LgtRig2:nurbsCircleShape1.spans": 8,
+                "Sample_LgtRig2:nurbsCircleShape1.form": 2,
+                "Sample_LgtRig2:nurbsCircleShape1.degree": 3,
+                "Sample_LgtRig2:nurbsCircleShape1.cv": [
+                    [
+                        0.7836116248912245,
+                        4.798237340988473e-17,
+                        -0.7836116248912246
+                    ],
+                    [
+                        6.785732323110912e-17,
+                        6.785732323110912e-17,
+                        -1.1081941875543877
+                    ],
+                    [
+                        -0.7836116248912245,
+                        4.798237340988472e-17,
+                        -0.7836116248912244
+                    ],
+                    [
+                        -1.1081941875543881,
+                        3.517735619006027e-33,
+                        -5.74489823752483e-17
+                    ],
+                    [
+                        -0.7836116248912245,
+                        -4.7982373409884725e-17,
+                        0.7836116248912245
+                    ],
+                    [
+                        -1.1100856969603225e-16,
+                        -6.785732323110917e-17,
+                        1.1081941875543884
+                    ],
+                    [
+                        0.7836116248912245,
+                        -4.798237340988472e-17,
+                        0.7836116248912244
+                    ],
+                    [
+                        1.1081941875543881,
+                        -9.253679210110099e-33,
+                        1.511240500779959e-16
+                    ],
+                    [
+                        1.1081941875543881,
+                        -9.253679210110099e-33,
+                        1.511240500779959e-16
+                    ],
+                    [
+                        1.1081941875543881,
+                        -9.253679210110099e-33,
+                        1.511240500779959e-16
+                    ],
+                    [
+                        1.1081941875543881,
+                        -9.253679210110099e-33,
+                        1.511240500779959e-16
+                    ]
+                ]
+            },
+            "custom_setting": {}
+        },
+        "topnurbs_Shape_01": {
+            "topnurbs_Shape_01.castsShadows": true,
+            "topnurbs_Shape_01.primaryVisibility": true,
+            "topnurbs_Shape_01.aiSelfShadows": true,
+            "topnurbs_Shape_01.aiOpaque": true,
+            "topnurbs_Shape_01.aiMatte": false,
+            "topnurbs_Shape_01.aiVisibleInDiffuseReflection": true,
+            "topnurbs_Shape_01.aiVisibleInSpecularReflection": true,
+            "topnurbs_Shape_01.aiVisibleInDiffuseTransmission": true,
+            "topnurbs_Shape_01.aiVisibleInSpecularTransmission": true,
+            "topnurbs_Shape_01.aiVisibleInVolume": true,
+            "topnurbs_Shape_01.aiMode": 0,
+            "topnurbs_Shape_01.aiRenderCurve": false,
+            "topnurbs_Shape_01.aiCurveWidth": 0.009999999776482582,
+            "topnurbs_Shape_01.aiSampleRate": 5,
+            "topnurbs_Shape_01.aiExportRefPoints": true,
+            "topnurbs_Shape_01.Float2": 3.0,
+            "topnurbs_Shape_01.int2": 5,
+            "topnurbs_Shape_01.Bool2": true,
+            "topnurbs_Shape_01.Enum2": 3,
+            "child_shape": false,
+            "parent": [
+                "topnurbs_01"
+            ],
+            "nodetype": "nurbsCurve",
+            "curve_data": {
+                "Sample_LgtRig2:topnurbs_Shape_01.spans": 0,
+                "Sample_LgtRig2:topnurbs_Shape_01.form": 0,
+                "Sample_LgtRig2:topnurbs_Shape_01.degree": 0,
+                "Sample_LgtRig2:topnurbs_Shape_01.cv": []
+            },
+            "custom_setting": {
+                "Sample_LgtRig2:topnurbs_Shape_01.Float2": [
+                    "double",
+                    [
+                        0.0,
+                        5.0,
+                        0.0
+                    ]
+                ],
+                "Sample_LgtRig2:topnurbs_Shape_01.int2": [
+                    "long",
+                    [
+                        0,
+                        5,
+                        0
+                    ]
+                ],
+                "Sample_LgtRig2:topnurbs_Shape_01.Bool2": [
+                    "bool",
+                    []
+                ],
+                "Sample_LgtRig2:topnurbs_Shape_01.Enum2": [
+                    "enum",
+                    [
+                        "Yes",
+                        "No",
+                        "Maybe",
+                        "Send Help"
+                    ]
+                ]
+            }
+        }
+    }
+}
